@@ -1,22 +1,31 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
   "scripts": {
-    "start": "expo start",
     "android": "expo start --android",
+    "eject": "expo eject",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "start": "expo start",
+    "web": "expo start --web"
   },
+  "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
     "expo": "~39.0.2",
+    "expo-camera": "^9.0.0",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "vue-native-core": "^0.1.4",
+    "vue-native-helper": "^0.1.4"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
-  },
-  "private": true
+    "@babel/core": "^7.0.0",
+    "mutationobserver-shim": "^0.3.3",
+    "popper.js": "^1.16.0",
+    "portal-vue": "^2.1.6",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-native-scripts": "^0.1.4"
+  }
 }
